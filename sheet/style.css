@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Raleway", sans-serif;
+}
+/* Nav Bar & Banner */
+header{
+     width:90%;
+     margin: 0px auto;
+     height: 698px;
+     background-image: url("../img/Hero-bg.png");
+     background-repeat: no-repeat;
+     
+}
+#header-grating{
+    width: 905px;
+    height: 237px;
+    margin: 158px auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+#header-grating-btn{
+    width: 174px;
+    height: 48px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 37px;
+}
+#h-btn{
+    width: 132px;
+    height: 48px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 24px 50px 24px;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+    font-size:34px ;
+    color: #4E47FF;
+}
