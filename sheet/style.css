@@ -294,4 +294,37 @@ label{
     border-radius: 10px;
     padding-left: 10px;
 }
+/* Footer Design Start */
+.footer{
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 428px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo{
+    width: 531px;
+    height: 221px;
+    text-align: center;
+}
+.footer-logo h1{
+     font-family: "Inter", sans-serif;
+     font-weight: bolder;
+     font-size: 100px;
+     color: #4E47FF;
+}
+.footer-nav{
+    width: 401px;
+    height: 24px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+.footer-nav a{
+    text-decoration: none;
+    color: black;
+}
+
 
