@@ -3,6 +3,9 @@
     padding: 0px;
     font-family: "Raleway", sans-serif;
 }
+.bg{
+    background-color: #F5F8FF;
+}
 /* Nav Bar & Banner */
 header{
      width:90%;
@@ -152,7 +155,7 @@ img{
 .card{
     width: 366.67px;
     height:243px;
-    background-color: #cfc3c3;
+    background-color: #FFFFFF;
     border-radius: 14px;
     padding: 24px;
 }
@@ -176,3 +179,119 @@ img{
     width: 20px;
     height: 20px;
 }
+/* Big Banner Design Start */
+#wc-big-banner{
+    width: 1140px;
+    height: 696.77px;
+    background-color: #FFFFFF;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    border-radius: 14px;
+    
+
+}
+.wc-big-banner-con{
+        width: 840px;
+        height: 364.77px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 71px 150px;
+        text-align: center;
+
+}
+.big-banner-title{
+     width: 516px;
+     height: 60px;
+     font-weight: bold;
+     font-size: 50px;
+     margin: 0px auto;
+}
+.big-banner-des{
+    width: 487px;
+    height: 22px;
+    margin: 0px auto;
+}
+.big-banner-btn{
+    width: 195px;
+    height: 48px;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+.big-banner-img{
+   width: 840px;
+   height: 364.77px;
+   border-radius: 48px;
+}
+/* Form Section Design Start */
+#Form_section{
+    width: 1140px;
+    height: 632px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.form-con{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-top: 71px;
+     padding-bottom: 71px;
+}
+.form-heading{
+     width: 528px;
+     height: 232px;
+}
+.form-heading h1{
+    font-weight: bold;
+    font-size: 97px;
+}
+.final-form{
+     width: 497px;
+     height: 490px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input[type="email"],input[type="text"]{
+    background-color:#FFFFFF;
+    width: 487px;
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+}
+label{
+    width: 497px;
+    height: 22px;
+    font-family: "Inter", sans-serif;
+    font-weight:medium;
+    font-size: 18px;
+    margin: 5px;
+}
+#textarea{
+    width: 487px;
+    height: 132px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 16px;
+}
+.form-btn{
+    width: 497px;
+    height: 52px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-weight:bold ;
+    font-size:16px ;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
