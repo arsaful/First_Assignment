@@ -77,7 +77,8 @@ nav li a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px auto;
+    margin: auto;
+    margin-top: 80px;
 }
 .action-content{
     width: 517px;
